@@ -15,8 +15,9 @@ const styles = {
     textAlign: 'center',
   },
   container: {
-    maxWidth: 700,
+    maxWidth: 720,
     margin: 'auto',
+    marginTop: 20,
   },
 };
 

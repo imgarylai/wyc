@@ -3,7 +3,6 @@ import AppBar from 'material-ui/AppBar';
 
 const styles = {
   title: {
-    textAlign: 'center',
     cursor: 'pointer',
   },
 };
