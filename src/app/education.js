@@ -41,7 +41,10 @@ class Education extends Component {
   render() {
     return (
       <List>
-        <Subheader style={styles.header} ><SchoolIcon style={styles.iconStyle} />Education</Subheader>
+        <Subheader style={styles.header} >
+          <SchoolIcon style={styles.iconStyle} />
+          Education
+        </Subheader>
         {state.educations.map(education =>
           <ListItem
             key={education.id}

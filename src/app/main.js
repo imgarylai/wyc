@@ -19,6 +19,11 @@ const styles = {
     margin: 'auto',
     marginTop: 20,
   },
+  intro: {
+    fontSize: '1rem',
+    padding: 20,
+    lineHeight: 2,
+  }
 };
 
 const muiTheme = getMuiTheme({
@@ -40,6 +45,12 @@ class Main extends Component {
             <Bar />
           </div>
           <div style={styles.container}>
+            <p style={styles.intro}>
+            Hi, I am Andrea, a Taiwanese girl born in Taipei in 1991. <br/>
+            I base in London now for my master degree and would go back to Taiwan in Sep, 2016. <br/>
+            I am an energetic girl with an aptitude for learning and ability to grasp diverse concepts quickly. <br/>
+            I am a good team player who is good at communicating and always being happy to interact with people.
+            </p>
             <Education />
           </div>
         </div>
